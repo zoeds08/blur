@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/match/match",
+    "pages/chat/chat",
+    "pages/profile/profile"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Match",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/chat/chat",
+      "text": "Chat"
+    }, {
+      "pagePath": "pages/match/match",
+      "text": "Match"
+    }, {
+      "pagePath": "pages/profile/profile",
+      "text": "Profile"
+    }]
+  },
+  "debug": true
+}
