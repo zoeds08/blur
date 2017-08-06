@@ -1,0 +1,60 @@
+<!--pages/chatsessions/joanna/joanna.wxml-->
+<view class="wrap" src="joanna.js">
+  <view class="headsection">
+    <view class="matchinfo">
+      <view class="iconimage">
+        <image class="headicon" src="/materials/icons/calendar.png"></image>
+      </view>
+      <view class="discreption">
+        <text>You matched with Joanna</text>
+        <text>on July 27th, 2017</text>
+      </view>
+      <view class="iconimage">
+        <image class="headicon" src="/materials/icons/message.png"></image>
+      </view>
+      <view class="discreption">
+        <text>Here's what you have in common:</text>
+      </view>
+      <view class="button_container">
+        <button class="choice_button" bindtap="initMovie"> The Martian </button>
+        <button class="choice_button" bindtap="initHiking"> Hiking </button>
+        <button class="choice_button" bindtap="default"> R&B </button>
+      </view>
+      <view class="button_container">
+        <button class="choice_button" bindtap="default"> Family </button>
+        <button class="choice_button" bindtap="default"> Patient </button>
+        <button class="choice_button" bindtap="default"> SNL </button>
+      </view>
+    </view>
+  </view>
+  <scroll-view class="chatbox" scroll-y style="height: 285px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+    <view hidden="{{hideGuide}}" class="guide">
+      <view class="poster">
+        <image class="posterimage" mode="aspectFit" src="/materials/icons/movie.jpg"></image>
+      </view>
+      <view class="guidequestion">
+        <text>Since you both love The Martian,</text>
+        <text>have you seen Valerian?</text>
+      </view>
+      <view class="button_container">
+        <button class="choice_button" bindtap="chatYes"> Yes </button>
+        <button class="choice_button" bindtap="chatNo"> No </button>
+        <button class="choice_button" bindtap="closeTopic"> X close </button>
+      </view>
+    </view>
+    <view class="talk">
+      <view hidden="{{hideYesChat}}" class="onetalk">
+        <image class="chatimage" mode="aspectFit" src="/materials/icons/yeschat.png"></image>
+      </view>
+      <view hidden="{{hideNoChat}}" class="onetalk">
+        <image class="chatimage" mode="aspectFit" src="/materials/icons/nochat.png"></image>
+      </view>
+    </view>
+  </scroll-view>
+  <view>
+    <view class="sendmessage">
+      <input id="message" bindinput="bindChange"></input>
+      <button bindtap="add">Send</button>
+    </view>
+  </view> 
+</view>

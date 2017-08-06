@@ -1,0 +1,104 @@
+/* pages/chatsessions/joanna/joanna.wxss */
+.headsection{
+  display: flex;
+  flex-direction: column;
+  background-color: #EEEEEE;
+  font-size: 14px;
+  height: 200pt;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.iconimage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headicon {
+  width: 24pt;
+  height: 24pt;
+  padding-top: 10pt;
+  background-color: #EEEEEE;
+}
+
+.discreption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button_container {
+  display: flex;
+  padding-top: 10pt;
+  width: 220pt;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.choice_button {
+  color: #FF1493; 
+  border: 2px solid #FF1493;
+  height: 25pt;
+  font-size: 10pt;
+  font-weight: bold;
+  font-family: Courier New, Courier, monospace;
+}
+.guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEEEEE;
+  margin: 20pt;
+}
+.poster {
+  display: flex;
+  padding: 10pt;
+  justify-content: center;
+}
+
+.guidequestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16pt;
+}
+
+.talk {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.onetalk {
+  height: 60pt;
+}
+
+.sendmessage {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  border:2px solid #aaaaaa;
+}
+
+.sendmessage input { 
+  width:80%;
+  height:40px;
+ line-height : 40px ;
+ font-size : 14px ;
+ padding-left:10px;
+}
+.sendmessage button {
+ border : 1px solid #aaaaaa ;
+ width : 20% ;
+ height : 40px ;
+ background : #aaaaaa ;
+ color : #ffffff ;
+ line-height : 40px ;
+ font-size : 14px ;
+}
