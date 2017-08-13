@@ -41,6 +41,10 @@
         <button class="choice_button" bindtap="chatNo"> No </button>
         <button class="choice_button" bindtap="closeTopic"> Change Topic </button>
       </view>
+      <view class="guidequestion" style="padding-top:10pt;font-size:14px;font-family:Calibri">
+        <text>AMC Lowes cinema:</text>
+        <text>2.5 miles away from you</text>
+      </view>
     </view>
     <view class="talk">
       <view hidden="{{hideYesChat}}" class="onetalk">
