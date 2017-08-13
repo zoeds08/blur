@@ -34,7 +34,8 @@ Page({
     this.setData({
       hideGuide: !this.data.hideGuide,
       pressed: false,
-      unpressed: true
+      unpressed: true,
+      message_value: ""
     })
   },
 
