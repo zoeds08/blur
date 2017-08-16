@@ -1,0 +1,25 @@
+.nametag {
+  display: flex;
+  align-items:center;
+  font-family: Didot, Helvetica, sans-serif;
+  font-size: 10pt;
+  height: 60pt;
+}
+
+.matchdate {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 8pt;
+  text-indent: 120px;
+}
+
+.userphoto {
+  width: 48pt;
+  height: 48pt;
+  border: 0 solid #ff0000;
+  border-radius: 100rpx;
+  background-color: #f10b2e;
+}
+.buttontag {
+  text-indent: 30px;
+  font-weight: bold;
+}

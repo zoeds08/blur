@@ -1,0 +1,148 @@
+/* pages/profile/profile.wxss */
+.nametag {
+  display: flex;
+  align-items:center;
+  font-family: Didot, Helvetica, sans-serif;
+  font-size: 10pt;
+  height: 60pt;
+}
+
+.matchdate {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 8pt;
+  text-indent: 120px;
+}
+
+.userphoto {
+  width: 48pt;
+  height: 48pt;
+  border: 0 solid #ff0000;
+  border-radius: 100rpx;
+  background-color: #f10b2e;
+}
+.buttontag {
+  text-indent: 30px;
+  font-weight: bold;
+}
+
+.photo{
+  display: flex;
+  flex-direction: column;
+  height: 200pt;
+  align-items: center;
+  margin-top: 0rpx;
+}
+
+.headsection{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20pt;
+  font-size: 14px;
+  height: 150pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name{
+  color: #FF5733;
+  font-size: 30px;
+  flex-wrap: nowrap;
+}
+
+.calenderImage{
+  width: 16pt;
+  height: 16pt;
+  align-items: right;
+  flex-direction: row;
+}
+
+.content{
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.first{
+  width: 16pt;
+  height: 16pt;
+  padding-top: 5pt;
+  padding-left: 5pt;
+  align-items: right;
+  flex-direction: row;
+}
+
+.second{
+  width: 16pt;
+  height: 16pt;
+  align-items: right;
+  padding-left: 80pt;
+  flex-direction: row;
+}
+
+.navi{
+  height: 16pt;
+  align-items: right;
+  padding-left: 200pt;
+}
+
+.divide{
+  padding-bottom: 30pt;
+  padding-top: 30pt;
+}
+
+.line{
+  height: 16pt;
+}
+
+.iconimage {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+.button_container {
+  display: flex;
+  padding-top: 10pt;
+  width: 220pt;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.choice_button {
+  color: #FF5733; 
+  border: 2px solid #FF5733;
+  height: 25pt;
+  font-size: 10pt;
+  font-weight: bold;
+  font-family: Courier New, Courier, monospace;
+}
+.guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEEEEE;
+  margin: 20pt;
+}
+.poster {
+  display: flex;
+  padding: 10pt;
+  justify-content: center;
+}
+
+.guidequestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16pt;
+}
+
+.talk {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.onetalk {
+  height: 60pt;
+}

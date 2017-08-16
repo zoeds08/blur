@@ -1,0 +1,26 @@
+<!--pages/gammi/gammi.wxml-->
+<view class="back">
+  <view class="headsection">
+    <view class="title">
+        <text>Daily Task</text>     
+    </view>
+    <view class="content">
+      <view class="divide">
+        <text>Login Daily.</text>
+        <image class="second" src="/materials/icons/correct.png"></image>
+      </view>
+      <view class="divide">
+        <text>Have a conversation.</text>
+        <image class="second2" src="/materials/icons/correct.png"></image>
+      </view>    
+      <view class="divide"> 
+        <text>Find 5 Matches</text>
+        <text class="second3">3/5</text>
+      </view>
+    </view> 
+  </view>
+  <image class="list" src="/materials/icons/list.png"></image>
+  <text class="last">Complete daily task 7 days in a</text> 
+  <text class="last">row to win FREE Preimum for</text> 
+  <text class="last">a month</text>
+</view>
