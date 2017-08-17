@@ -43,7 +43,7 @@
 }
 
 .name{
-  color: #FF5733;
+  color: #FF69B4;
   font-size: 30px;
   flex-wrap: nowrap;
 }
@@ -107,8 +107,8 @@
 }
 
 .choice_button {
-  color: #FF5733; 
-  border: 2px solid #FF5733;
+  color: #FF69B4; 
+  border: 2px solid #FF69B4;
   height: 25pt;
   font-size: 10pt;
   font-weight: bold;
