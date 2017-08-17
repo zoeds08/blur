@@ -1,7 +1,7 @@
 <!--pages/profile/profile.wxml-->
 <view class="wrap" src="profile.js">
   <view class="photo">
-    <image class="profilephotoicon" mode="scaleToFill" src="/materials/icons/photo.png"></image>
+    <image class="profilephotoicon" mode="aspectFit" src="/materials/icons/photo.png"></image>
   </view>
   <view class="headsection">
     <navigator class="navi" url="/pages/gammi/gammi">
