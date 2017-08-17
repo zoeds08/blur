@@ -1,3 +1,4 @@
+
 /* pages/profile/profile.wxss */
 .nametag {
   display: flex;
@@ -30,7 +31,6 @@
   flex-direction: column;
   height: 200pt;
   align-items: center;
-  margin-top: 0rpx;
 }
 
 .headsection{
@@ -38,7 +38,7 @@
   flex-direction: column;
   padding-left: 20pt;
   font-size: 14px;
-  height: 150pt;
+  height: 130pt;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .calenderImage{
-  width: 16pt;
+  width: 45pt;
   height: 16pt;
   align-items: right;
   flex-direction: row;
@@ -80,7 +80,7 @@
 .navi{
   height: 16pt;
   align-items: right;
-  padding-left: 200pt;
+  padding-left: 170pt;
 }
 
 .divide{
@@ -146,3 +146,6 @@
 .onetalk {
   height: 60pt;
 }
+
+/* pages/profile/profile.wxss */
+

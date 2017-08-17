@@ -6,17 +6,17 @@
         <image class="headicon" src="/materials/icons/calendar.png"></image>
       </view>
       <view class="discreption">
-        <text>You matched with Joanna</text>
-        <text>on July 27th, 2017</text>
+        <text>Matched on July 27th, 2017</text>
       </view>
       <view class="iconimage">
         <image class="headicon" src="/materials/icons/message.png"></image>
       </view>
       <view class="discreption">
-        <text>Here's what you have in common:</text>
+        <text>Click a topic to start the conversation!</text>
       </view>
       <view class="button_container">
-        <button class="choice_button" bindtap="initMovie"> The Martian </button>
+        <button hidden="{{pressed}}" class="choice_button" bindtap="initMovie"> The Martian </button>
+        <button hidden="{{unpressed}}" class="pressed_button"> The Martian </button>
         <button class="choice_button" bindtap="initHiking"> Hiking </button>
         <button class="choice_button" bindtap="default"> R&B </button>
       </view>
@@ -39,21 +39,29 @@
       <view class="button_container">
         <button class="choice_button" bindtap="chatYes"> Yes </button>
         <button class="choice_button" bindtap="chatNo"> No </button>
-        <button class="choice_button" bindtap="closeTopic"> X close </button>
+        <button class="choice_button" bindtap="closeTopic"> Change Topic </button>
+      </view>
+      <view class="guidequestion" style="padding-top:10pt;font-size:14px;font-family:Calibri">
+        <text>AMC Lowes cinema:</text>
+        <text>2.5 miles away from you</text>
       </view>
     </view>
     <view class="talk">
       <view hidden="{{hideYesChat}}" class="onetalk">
-        <image class="chatimage" mode="aspectFit" src="/materials/icons/yeschat.png"></image>
+        <navigator class="navi" url="/pages/gammi/gammi">
+          <image class="chatimage" mode="aspectFit" src="/materials/icons/yeschat.png"></image>
+        </navigator>       
       </view>
       <view hidden="{{hideNoChat}}" class="onetalk">
-        <image class="chatimage" mode="aspectFit" src="/materials/icons/nochat.png"></image>
+        <navigator class="navi" url="/pages/gammi/gammi">
+          <image class="chatimage" mode="aspectFit" src="/materials/icons/nochat.png"></image>
+        </navigator> 
       </view>
     </view>
   </scroll-view>
   <view>
     <view class="sendmessage">
-      <input id="message" bindinput="bindChange"></input>
+      <input id="message" value="{{message_value}}" maxlength="-1" bindinput="bindChange"></input>
       <button bindtap="add">Send</button>
     </view>
   </view> 
